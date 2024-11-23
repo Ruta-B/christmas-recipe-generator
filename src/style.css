@@ -1,3 +1,73 @@
 body {
-  background-color: #ecced8;
+  background-color: rgba(88, 9, 9, 0.6);
+}
+
+.container {
+  width: 600px;
+  margin: 150px auto;
+  background-image: url("");
+}
+
+a {
+  color: #003f2c;
+}
+
+h1 {
+  font-size: 42px;
+  font-family: "Bokor", system-ui;
+  font-weight: 400;
+  font-style: normal;
+ 
+  text-align: center;
+  color: #003f2c;
+}
+
+form {
+  padding: 30px;
+  background-color: rgb(129, 116, 101);
+ border: #082e1f   double;
+   --mask: conic-gradient(from -120deg at right,#0000,#000 1deg 59deg,#0000 60deg) 50%/100% 17.32px;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+
+}
+
+.recipe-search-name {
+  width: 70%;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  font-size: 16px;
+ border: none;
+
+}
+.submit-input{
+    margin-left: 5px;
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 3px 10px rgba(100, 91, 91, 0.2);
+    
+}
+.recipe1{
+    margin-top: 20px;
+    padding: 20px;
+background-color:  rgb(129, 116, 101) ;
+line-height: 1.5;
+color: #ffff;
+
+    --mask: conic-gradient(from -120deg at right,#0000,#000 1deg 59deg,#0000 60deg) 50%/100% 17.32px;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+
+
+border: #082e1f   double;
+}
+footer{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
 }

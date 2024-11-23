@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bokor&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
+    <div class="container">
     <header>
       <h1>AI generated Christmas recipes</h1>
     </header>
@@ -18,10 +22,11 @@
           autocomplete="off"
           autofocus
           required
+          class="recipe-search-name"
         />
-        <input type="button" value="Submit" />
+        <input type="button" value="Submit" class="submit-input"/>
       </form>
-      <div>
+      <div class="recipe1">
         recipe
         <br />
         recipe
@@ -40,7 +45,7 @@
       <a href="https://christmas-recip-generator.netlify.app/" target="_blank"
         >Netlify.</a
       >
-    </footer>
+    </footer></div>
     <script src="src/index.js"></script>
   </body>
 </html>
