@@ -13,11 +13,13 @@ function generateChristmasRecipe(event) {
   let userInputElement = document.querySelector("#user-search-input");
   let apiKey = "a7oe402d391da40bfcfe02337et07b50";
   let context =
-    "You write various christmas recipes in basic html. Make sure to provide a clear and precise answer based on user instructions.DO NOT include html word in the recipe";
-  let prompt = `user instructions: christmas recipe with ${userInputElement}`;
+    "You write various christmas recipes in basic HTML. Make sure to provide a clear and precise answer based on user instructions.DO NOT include HTML word in the recipe";
+  let prompt = `User instructions: christmas recipe about ${userInputElement.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+    console.log(`Prompt: ${prompt}`);
 
-  axios.get(apiUrl).then(writeRecipe);
+    axios.get(apiUrl).then(writeRecipe);
+    
 }
 
 let formElement = document.querySelector("#recipe");

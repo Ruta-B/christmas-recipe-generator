@@ -1,8 +1,5 @@
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/151/309/original/christmas-tree-574742_1920.jpg?1732460646");
-  background-repeat: no-repeat;
-  background-size: cover;
- background-position: top;
+  background-color: #635050;
 }
 
 .container {
@@ -12,6 +9,7 @@ body {
   padding: 50px;
   border-radius: 10px;
 }
+
 
 a {
   color: #003f2c;
