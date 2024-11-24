@@ -1,17 +1,51 @@
 body {
-  background-color: #635050;
+  height: 100%;
+  background-color: #2a0205;
+  border-left: white double space;
 }
 
+
+
+
+.snowflake1{
+position: absolute;
+  top: 8px;
+  right: 16px;
+ 
+}
 .container {
-  width: 600px;
+  width: 800px;
   margin: 150px auto;
   background-color: rgba(237, 231, 231, 0.6);
   padding: 50px;
   border-radius: 10px;
+  opacity: 0.9;
+ position: relative;
+
+
+ 
+  /*background-image: url("");
+  border-image-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;*/
+}
+
+.center-h1{
+position: absolute;
+  top: 20%;
+  left: 30%;
+   transform: translate(-50%, -50%);
+}
+
+.big-white-snowflake{
+  width: 40px;
+  height: 40px;
 }
 
 a {
-  color: #003f2c;
+  color: white;
 }
 
 h1 {
@@ -21,9 +55,9 @@ h1 {
   text-shadow: 4px 4px 4px #635050;
   font-weight: 400;
   font-style: normal;
-
+position: absolute;
   text-align: center;
-  color: #003f2c;
+  color: white;
 }
 
 .form-container {
@@ -39,9 +73,11 @@ h1 {
     50%/100% 17.32px;
   -webkit-mask: var(--mask);
   mask: var(--mask);
+  
 }
 
 form {
+ 
   display: flex;
   font-size: 16px;
 }
@@ -89,10 +125,9 @@ form {
   border: #082e1f double;
 }
 
-.hidden{
-display: none;
+.hidden {
+  display: none;
 }
-
 
 footer {
   margin-top: 20px;
@@ -100,10 +135,10 @@ footer {
   text-align: center;
 }
 
-.generate{
-animation: blink-animation 1s steps(5, start) infinite;
- opacity: 0.6;
- font-size: 18px;
+.generate {
+  animation: blink-animation 1s steps(5, start) infinite;
+  opacity: 0.6;
+  font-size: 18px;
 }
 
 @keyframes blink-animation {
