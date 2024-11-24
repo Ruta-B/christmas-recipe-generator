@@ -1,7 +1,7 @@
 body {
-  height: 100%;
+ 
   background-color: #2a0205;
-  border-left: white double space;
+  border: white 3px double;
 }
 
 
