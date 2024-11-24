@@ -10,7 +10,6 @@ body {
   border-radius: 10px;
 }
 
-
 a {
   color: #003f2c;
 }
@@ -27,7 +26,7 @@ h1 {
   color: #003f2c;
 }
 
-form {
+.form-container {
   padding: 30px;
   background-color: rgb(129, 116, 101);
   border: #082e1f double;
@@ -40,6 +39,16 @@ form {
     50%/100% 17.32px;
   -webkit-mask: var(--mask);
   mask: var(--mask);
+}
+
+form {
+  display: flex;
+  font-size: 16px;
+}
+
+.example {
+  padding-top: 10px;
+  opacity: 0.6;
 }
 
 .recipe-search-name {
@@ -80,8 +89,30 @@ form {
   border: #082e1f double;
 }
 
+.hidden{
+display: none;
+}
+
+
 footer {
   margin-top: 20px;
   font-size: 14px;
   text-align: center;
+}
+
+.generate{
+animation: blink-animation 1s steps(5, start) infinite;
+ opacity: 0.6;
+ font-size: 18px;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
