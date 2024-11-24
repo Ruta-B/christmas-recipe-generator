@@ -1,5 +1,4 @@
 function writeRecipe(response) {
-  console.log(response);
   new Typewriter("#written-recipe", {
     strings: response.data.answer,
 
@@ -14,7 +13,7 @@ function generateChristmasRecipe(event) {
   let userInputElement = document.querySelector("#user-search-input");
   let apiKey = "a7oe402d391da40bfcfe02337et07b50";
   let context =
-    "You write various christmas recipes in basic html. Follow user instructions. DO NOT include html word in the recipe";
+    "You write various christmas recipes in basic html. Make sure to provide a clear and precise answer based on user instructions.DO NOT include html word in the recipe";
   let prompt = `user instructions: christmas recipe with ${userInputElement}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
