@@ -4,47 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bokor&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bokor&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-    <header>
-      <h1>AI generated Christmas recipes</h1>
-    </header>
-    <main>
-      <form id="recipe">
-        <input
-          type="text"
-          placeholder="Enter your Christmas recipe name..."
-          autocomplete="off"
-          autofocus
-          required
-          class="recipe-search-name"
-        />
-        <input type="submit"  class="submit-input"/>
-      </form>
-      <div class="recipe1" id="written-recipe">
-        
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Ruta-B" target="_blank">Ruta Baumane </a>and
-      is open-sourced on
-      <a
-        href="https://github.com/Ruta-B/christmas-recipe-generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and
-      <a href="https://christmas-recip-generator.netlify.app/" target="_blank"
-        >Netlify.</a
-      >
-    </footer></div>
+      <header>
+        <h1>Christmas recipes</h1>
+      </header>
+      <main>
+        <form id="recipe">
+          <input
+            type="text"
+            placeholder="Christmas recipe...?"
+            autocomplete="off"
+            autofocus
+            required
+            class="recipe-search-name"
+            id="user-search-input"
+          />
+          <input type="submit" class="submit-input" />
+        </form>
+        <div class="recipe1" id="written-recipe"></div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Ruta-B" target="_blank">Ruta Baumane </a>and
+        is open-sourced on
+        <a
+          href="https://github.com/Ruta-B/christmas-recipe-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and
+        <a href="https://christmas-recip-generator.netlify.app/" target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
