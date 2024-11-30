@@ -19,7 +19,7 @@ body {
 
   img {
    
-    object-fit: fill;
+    object-fit: contain;
   }
 
   /*background-image: url("");
