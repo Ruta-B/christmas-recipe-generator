@@ -22,7 +22,10 @@ position: absolute;
   opacity: 0.9;
  display: block;
 
-
+img{
+  position: relative;
+  
+}
  
   /*background-image: url("");
   border-image-width: 100%;
@@ -32,10 +35,7 @@ position: absolute;
   object-fit: contain;*/
 }
 
-img{
-  position: relative;
-  
-}
+
 header{
    position: absolute;
   top: 50%;
