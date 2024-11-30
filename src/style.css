@@ -5,6 +5,7 @@ body {
 
 .snowflake1 {
   position: absolute;
+  object-fit: contain;
   top: 10px;
   right: 16px;
 }
@@ -18,8 +19,18 @@ body {
   display: block;
 
   img {
-   
+    display: inline-block;
+    margin: 0 auto;
     object-fit: cover;
+  }
+  header {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
   }
 
   /*background-image: url("");
@@ -30,31 +41,18 @@ body {
   object-fit: contain;*/
 }
 
-header {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.big-white-snowflake {
-  width: 40px;
-  height: 40px;
-}
-
 a {
   color: white;
 }
 
 h1 {
-  font-size: 52px;
+  font-size: 48px;
   font-family: "Bokor", system-ui;
   text-shadow: 4px 4px 4px #635050;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   color: white;
-  
 }
 
 .form-container {
@@ -145,4 +143,8 @@ footer {
   to {
     visibility: hidden;
   }
+}
+
+.snowflake {
+  object-fit: contain;
 }
