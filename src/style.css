@@ -18,8 +18,8 @@ body {
   display: block;
 
   img {
-    position: relative;
-    object-fit: contain;
+   
+    object-fit: cover;
   }
 
   /*background-image: url("");
