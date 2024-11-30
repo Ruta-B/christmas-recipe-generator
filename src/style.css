@@ -22,6 +22,7 @@ body {
     display: inline-block;
     margin: 0 auto;
     object-fit: cover;
+    
   }
   header {
     position: absolute;
