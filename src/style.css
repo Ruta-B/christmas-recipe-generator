@@ -206,8 +206,8 @@ footer {
     padding-top: 100px;
   }
   .container{
-    margin:5px 10px;
-    padding: 0 5px;
+    margin:10px 5px;
+    padding:5px 5px ;
   }
   footer{
     margin-bottom: 5px;
@@ -215,6 +215,9 @@ footer {
   }
   .submit-input{
     font-size: 13px;
+  }
+  .form-container{
+    margin: 5px;
   }
 }
 @media screen and (max-width: 344px){
@@ -224,14 +227,14 @@ footer {
   }
   .header {
     background-repeat: no-repeat;
-    
+    margin: 0 5px;
     background-position: center;
     background-size: contain;
     background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/151/335/original/wood_present.jpg?1732469390);
   }
   .container{
-    margin:5px 10px;
-    padding: 0 5px;
+    margin: 5px 10px;
+    padding:  5px;
   }
   .submit-input{
     font-size: 11px;
